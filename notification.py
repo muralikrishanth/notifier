@@ -7,8 +7,8 @@ import requests
 from datetime import datetime, date
 
 # --- Telegram Bot Setup ---
-TOKEN = "8009585679:AAFk1aGo2t8SNdZrCxhEvJDYObsQ2IAHYEE"
-CHAT_ID = "7793594811"
+TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 def send_message(text):
     """Send formatted message to Telegram (HTML style)."""
@@ -61,7 +61,7 @@ def translate_to_english(text):
         return text  # fallback to original German if translation fails
 
 def get_headlines():
-    NEWS_API_KEY = "8093dc945086422a894a88fe4e901448"
+    NEWS_API_KEY = os.getenv("NEWS_API_KEY")
     german_headlines, intl_headlines = [], []
 
     # 🇩🇪 German headlines (Tagesschau)
