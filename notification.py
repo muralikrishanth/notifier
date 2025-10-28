@@ -1,7 +1,3 @@
-# NEWS API KEY: 8093dc945086422a894a88fe4e901448
-# TELEGRAM BOT TOKEN: 8009585679:AAFk1aGo2t8SNdZrCxhEvJDYObsQ2IAHYEE
-# CHATID TELEGRAM: 7793594811
-
 import os
 import requests
 from datetime import datetime, date
