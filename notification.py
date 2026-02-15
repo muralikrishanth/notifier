@@ -125,6 +125,7 @@ reminders = {
     "01-01": "🎂 Happy New Year!",
     "12-19": "🎂 Mom's Birthday",
     "02-07": "🎂 Dad's Birthday & Shrithika's Birthday",
+    "02-15": "🎂 Ricky's Birthday",
     "08-05": "🎂 Sister's Birthday",
     "05-16": "🎂 Parent's Wedding anniversary",
     "06-15": "🎂 Kiran's Birthday",
