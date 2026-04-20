@@ -142,6 +142,7 @@ reminders = {
     "06-08": "🎂 Mahalakshmi's Birthday",
     "12-14": "🎂 Sister's Wedding anniversary",
     "12-22": "🎂 Brother-in-law's Birthday",
+    "12-25": "🎂 Merry Christmas",
 }
 
 def get_upcoming_events():
